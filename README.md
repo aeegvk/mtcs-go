@@ -20,7 +20,7 @@ You need to have Go installed on your machine. You can download it from the [off
 To install the project, you can clone the repository using the following command:
 
 ```sh
-git clone <repository-url>
+git clone git@github.com:aeegvk/mtcs-go.git
 ```
 
 Then, navigate to the project directory and download the necessary Go modules:
@@ -43,7 +43,7 @@ The server will start listening for incoming connections on `localhost:12345`.
 
 ## Running the Tests
 
-To run the tests for the server, navigate to the [`cmd/server`](command:_github.copilot.openRelativePath?%5B%22cmd%2Fserver%22%5D "cmd/server") directory and run the following command:
+To run the tests for the server, navigate to the `cmd/server` directory and run the following command:
 
 ```sh
 go test
